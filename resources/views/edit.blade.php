@@ -16,7 +16,10 @@
             <p>Student Grade:</p>
             <input required value={{ $student->grade }} placeholder="Enter Student Grade" type="text" name="grade" class="form-control">
 
-            <input type="submit" name="edit" class="btn btn-primary" value="Save"> 
+            <div>
+                <input style="margin-top: 10px" type="submit" name="edit" class="btn btn-primary" value="Save"> 
+            </div>
+            
         </div>
     </form>
 @endsection

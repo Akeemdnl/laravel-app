@@ -14,8 +14,10 @@
             <input required  placeholder="Enter Student Year" type="number" name="year" class="form-control">
             <p>Student Grade:</p>
             <input required  placeholder="Enter Student Grade" type="text" name="grade" class="form-control">
-
-            <input type="submit" name="save" class="btn btn-primary" value="Add Student"> 
+            <div style="margin-top: 10px">
+                <input type="submit" name="save" class="btn btn-primary" value="Add Student"> 
+            </div>
+            
         </div>
     </form>
 @endsection

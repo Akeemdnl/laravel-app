@@ -21,7 +21,7 @@
                     <td>{{ $student->name }}</td>
                     <td>{{ $student->year }}</td>
                     <td>{{ $student->grade }}</td>
-                    <td><button class="btn btn-danger"><a style="color: #FFFFFF; text-decoration: none;" href="{{ url('delete/' .$student->id )}}">Delete</a></button>
+                    <td><button class="btn btn-danger"><a onclick="return confirm('Are you sure?')" style="color: #FFFFFF; text-decoration: none;" href="{{ url('delete/' .$student->id )}}">Delete</a></button>
                     <button class="btn btn-secondary"><a style="color: #FFFFFF; text-decoration: none;" href="{{ url('edit/' .$student->id )}}">Edit</a></button>
                     </td>
                 </tr>
